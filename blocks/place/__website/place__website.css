@@ -1,0 +1,30 @@
+.place__website {
+    align-self: end;
+    justify-self: start;
+    grid-row: 1;
+    grid-column: 2;
+  }
+  
+  @media screen and (max-width: 320px) {
+    .place__website {
+      padding: 0 16px;
+      margin: 32px 0;
+    }
+  }
+
+
+  .place__url-heading {
+    margin-bottom: 12px;
+    color: #AAA;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+  }
+
+  @media screen and (max-width: 320px) {
+    .place__website {
+      padding: 0 16px;
+    }
+  }
