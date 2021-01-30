@@ -1,15 +1,30 @@
 .place__paragraph {
     margin: 0;
-    margin-bottom: 24px;
+    margin-bottom: 26px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 29px;
-    color: #fff;
+    color: #FFF;
   }
   
+  @media screen and (max-width: 1024px) {
+    .place__paragraph {
+     margin-bottom: 27px;
+   }
+  }
+
+  @media screen and (max-width: 768px) {
+    .place__paragraph {
+     margin-bottom: 25px;
+     font-size: 16px;
+     line-height: 26px;
+   }
+  }
+
   @media screen and (max-width: 320px) {
     .place__paragraph {
+     margin-bottom: 25px;
      font-size: 16px;
      line-height: 26px;
      padding: 0 16px;

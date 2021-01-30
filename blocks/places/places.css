@@ -1,8 +1,5 @@
 .places {
-    margin-top: 92px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
+    margin: 92px auto;
     max-width: 984px;
   }
   
@@ -11,13 +8,14 @@
     .places {
       max-width: 720px;
       margin-top: 88px;
+      margin-bottom: 90px;
       padding: 0;
     }
   }
 
   @media screen and (max-width: 320px) {
     .places {
-      margin: 64px 0;
+      margin: 66px 0;
       padding: 0;
     }
   }

@@ -10,7 +10,7 @@
     .place {
       grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
       grid-gap: 48px 32px;
-      margin-bottom: 84px;
+      margin-bottom: 80px;
     }
   }
   
@@ -18,7 +18,7 @@
     .place {
       grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
       grid-gap: 48px 28px;
-      margin-bottom: 72px;
+      margin-bottom: 73px;
     }
   }
   
@@ -26,8 +26,8 @@
     .place {
       display: flex;
       flex-direction: column;
-      justify-content: flex-start;
+      align-content: flex-start;
       align-items: center;
-      margin-bottom: 48px;
+      margin-bottom: 50px;
     }
   }
