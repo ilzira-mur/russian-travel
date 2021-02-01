@@ -10,7 +10,7 @@
     padding: 0 48px;
   }
   
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1250px) {
     .photo-grid {
       grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
       grid-gap: 16px;
