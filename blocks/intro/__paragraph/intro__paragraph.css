@@ -1,7 +1,8 @@
 .intro__paragraph {
     max-width: 690px;
-    margin-top: 40px;
-    margin-bottom: 33px;
+    padding-top: 40px;
+    padding-bottom: 33px;
+    margin: 0;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -13,9 +14,6 @@
     .intro__paragraph {
       max-width: 720px;
       margin: 0 auto;
-      padding-top: 40px;
-      padding-bottom: 33px;
-      font-size: 16px;
       line-height: 163%;
     }
   }
@@ -23,10 +21,5 @@
   @media screen and (max-width: 320px) {
     .intro__paragraph {
       max-width: 288px;
-      margin: 0 auto;
-      padding-top: 40px;
-      padding-bottom: 32px;
-      font-size: 16px;
-      line-height: 163%;
     }
   }
